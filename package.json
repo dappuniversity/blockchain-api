@@ -1,0 +1,30 @@
+{
+  "name": "node_workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "nodemon": "^1.18.10",
+    "web3": "1.0.0-beta.46"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "8.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenmorld/node_workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
